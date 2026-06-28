@@ -39,3 +39,4 @@ nav and footer with `<img src="assets/logo.svg" alt="Seairod Logistics">`.
 Both forms are already wired: `quote` (multi-step) and `contact`. After deploying,
 view entries under **Forms** in the Netlify dashboard, and add an email alert under
 **Forms → Form notifications**. Submit one test entry after the first deploy to confirm.
+Testing GitHub → Netlify auto deployment.
