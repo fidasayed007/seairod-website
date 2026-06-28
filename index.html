@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seairod Logistics LLC | Sea, Air & Road Freight Forwarding</title>
+<meta name="description" content="Seairod Logistics is a U.S.-based freight forwarding company specializing in ocean freight, air freight, import/export logistics, customs coordination, and end-to-end supply chain solutions across global trade lanes.">
+<meta property="og:title" content="Seairod Logistics LLC | International Logistics">
+<meta property="og:description" content="Reliable, responsive, end-to-end freight forwarding from the USA to the world. Ocean freight, air freight, customs, documentation, and more.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="main-nav">
+  <div class="nav-inner">
+    <a href="#" class="logo">
+      <div class="logo-mark" style="background:transparent">
+        <svg viewBox="0 0 48 48" style="width:42px;height:42px" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="45" height="45" rx="13" fill="#0A1A40"/><path d="M33 16 C33 11 20 10 17 15 C14.5 19 21 21 25 23" fill="none" stroke="#E0A526" stroke-width="4.4" stroke-linecap="round"/><path d="M23 25 C27 27 33.5 29 31 33 C28 38 15 37 15 32" fill="none" stroke="#FFFFFF" stroke-width="4.4" stroke-linecap="round"/><path d="M31.5 12.2 L39 9 L36.2 15.4 Z" fill="#E0A526"/></svg>
+      </div>
+      <div class="logo-text">SEAIROD<span>Logistics LLC</span></div>
+    </a>
+    <div class="nav-links">
+      <div class="dropdown">
+        <a href="#">Services ▾</a>
+        <div class="dropdown-menu">
+          <a href="#services" onclick="openService('ocean');return false;">Ocean Freight</a>
+          <a href="#services" onclick="openService('air');return false;">Air Freight</a>
+          <a href="#services" onclick="openService('import');return false;">Import Logistics</a>
+          <a href="#services" onclick="openService('export');return false;">Export Logistics</a>
+          <a href="#services" onclick="openService('customs');return false;">Customs Coordination</a>
+          <a href="#services" onclick="openService('inland');return false;">Inland Transportation</a>
+          <a href="#services" onclick="openService('warehouse');return false;">Warehousing</a>
+          <a href="#services" onclick="openService('docs');return false;">Documentation</a>
+        </div>
+      </div>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#industries">Industries</a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="#quote" class="nav-cta">Get a Quote →</a>
+    <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="white"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#services" onclick="closeMobile()">Services</a>
+  <a href="#how-it-works" onclick="closeMobile()">How It Works</a>
+  <a href="#industries" onclick="closeMobile()">Industries</a>
+  <a href="#about" onclick="closeMobile()">About Us</a>
+  <a href="#faq" onclick="closeMobile()">FAQ</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+  <a href="#quote" onclick="closeMobile()" class="mobile-cta">Get a Quote →</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="hero-grid"></div>
+    <svg class="hero-globe-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="white" stroke-width="1"/>
+      <ellipse cx="100" cy="100" rx="40" ry="90" stroke="white" stroke-width="0.8"/>
+      <line x1="10" y1="100" x2="190" y2="100" stroke="white" stroke-width="0.8"/>
+      <ellipse cx="100" cy="100" rx="90" ry="30" stroke="white" stroke-width="0.6"/>
+      <line x1="10" y1="65" x2="190" y2="65" stroke="white" stroke-width="0.4"/>
+      <line x1="10" y1="135" x2="190" y2="135" stroke="white" stroke-width="0.4"/>
+    </svg>
+  </div>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge">🌐 Connecting Global Trade</div>
+      <h1>Ship Smarter.<br>Move <em>Faster</em>.<br>Trade Globally.</h1>
+      <p class="hero-sub">Seairod Logistics is your trusted freight forwarding partner for ocean, air, import, and export logistics — from the USA to anywhere in the world, handled with precision and care.</p>
+      <div class="hero-actions">
+        <a href="#quote" class="btn-primary">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+          Request a Free Quote
+        </a>
+        <a href="#how-it-works" class="btn-outline">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px"><path d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          How It Works
+        </a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> FMC-Licensed NVOCC</div>
+        <div class="trust-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> 24-48hr Response</div>
+        <div class="trust-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> End-to-End Support</div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-stats-card">
+        <div class="hero-stats-grid">
+          <div class="hero-stat"><div class="hero-stat-num">50<span>+</span></div><div class="hero-stat-label">Countries Served</div></div>
+          <div class="hero-stat"><div class="hero-stat-num">3<span>+</span></div><div class="hero-stat-label">Trade Lanes</div></div>
+          <div class="hero-stat"><div class="hero-stat-num">500<span>+</span></div><div class="hero-stat-label">Shipments Handled</div></div>
+          <div class="hero-stat"><div class="hero-stat-num">48<span>h</span></div><div class="hero-stat-label">Quote Turnaround</div></div>
+        </div>
+        <div class="lane-list">
+          <div class="lane-item">
+            <span class="lane-item-route">🇺🇸 USA → 🇮🇳 India</span>
+            <div class="lane-item-dot"></div>
+            <span class="lane-item-status">Active Lane</span>
+          </div>
+          <div class="lane-item">
+            <span class="lane-item-route">🇺🇸 USA → 🇦🇪 UAE</span>
+            <div class="lane-item-dot"></div>
+            <span class="lane-item-status">Active Lane</span>
+          </div>
+          <div class="lane-item">
+            <span class="lane-item-route">🇺🇸 USA → 🇨🇳 China</span>
+            <div class="lane-item-dot"></div>
+            <span class="lane-item-status">Active Lane</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST TICKER -->
+<div class="trust-ticker">
+  <div class="ticker-track" id="ticker">
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> FMC Licensed NVOCC</span>
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> USA to India Specialists</span>
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> Ocean FCL & LCL</span>
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> Air Freight Express</span>
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> Customs Documentation</span>
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> Inland Drayage & Trucking</span>
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> Warehousing Solutions</span>
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> 48hr Quote Turnaround</span>
+    <!-- duplicate for infinite scroll -->
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> FMC Licensed NVOCC</span>
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> USA to India Specialists</span>
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> Ocean FCL & LCL</span>
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> Air Freight Express</span>
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> Customs Documentation</span>
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> Inland Drayage & Trucking</span>
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> Warehousing Solutions</span>
+    <span class="ticker-item"><svg viewBox="0 0 16 16"><path d="M8 0l2 5h5l-4 3 1.5 5L8 10l-4.5 3L5 8 1 5h5z"/></svg> 48hr Quote Turnaround</span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="section-tag">Our Services</div>
+      <h2 class="section-title">End-to-End Freight Solutions</h2>
+      <p class="section-sub">From your warehouse door to the final mile overseas — we coordinate every step of your shipment so you don't have to.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card fade-up" role="button" tabindex="0" onclick="openService('ocean')" onkeypress="if(event.key===&quot;Enter&quot;)openService('ocean')">
+        <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M20 17a2 2 0 002-2V9a2 2 0 00-2-2h-3v2h3v6H4V9h3V7H4a2 2 0 00-2 2v6a2 2 0 002 2H1v2h22v-2h-3zM9 9h6V5H9v4zm1-3h4v2h-4V6z"/></svg></div>
+        <div class="svc-title">Ocean Freight</div>
+        <div class="svc-desc">FCL and LCL ocean freight solutions across major global trade lanes. Competitive rates with reliable carrier partnerships for both full and consolidated loads.</div>
+        <div class="svc-link">Learn more <svg viewBox="0 0 16 16"><path d="M6 4l4 4-4 4"/></svg></div>
+      </div>
+      <div class="service-card fade-up" role="button" tabindex="0" onclick="openService('air')" onkeypress="if(event.key===&quot;Enter&quot;)openService('air')">
+        <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg></div>
+        <div class="svc-title">Air Freight</div>
+        <div class="svc-desc">Time-sensitive cargo moves fast with our air freight network. Express and standard options available for urgent, high-value, or perishable shipments.</div>
+        <div class="svc-link">Learn more <svg viewBox="0 0 16 16"><path d="M6 4l4 4-4 4"/></svg></div>
+      </div>
+      <div class="service-card fade-up" role="button" tabindex="0" onclick="openService('import')" onkeypress="if(event.key===&quot;Enter&quot;)openService('import')">
+        <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm-7 14l-4-4h3V9h2v4h3l-4 4z"/></svg></div>
+        <div class="svc-title">Import Logistics</div>
+        <div class="svc-desc">Comprehensive import coordination from origin to U.S. delivery. We handle pickup, documentation, customs clearance, and last-mile delivery on your behalf.</div>
+        <div class="svc-link">Learn more <svg viewBox="0 0 16 16"><path d="M6 4l4 4-4 4"/></svg></div>
+      </div>
+      <div class="service-card fade-up" role="button" tabindex="0" onclick="openService('export')" onkeypress="if(event.key===&quot;Enter&quot;)openService('export')">
+        <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm-7 14l4-4h-3V9h-2v4H8l4 4z"/></svg></div>
+        <div class="svc-title">Export Logistics</div>
+        <div class="svc-desc">Expert U.S. export management including EEI filing, B/L coordination, carrier booking, and destination delivery. We simplify the complexity of global exports.</div>
+        <div class="svc-link">Learn more <svg viewBox="0 0 16 16"><path d="M6 4l4 4-4 4"/></svg></div>
+      </div>
+      <div class="service-card fade-up" role="button" tabindex="0" onclick="openService('customs')" onkeypress="if(event.key===&quot;Enter&quot;)openService('customs')">
+        <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg></div>
+        <div class="svc-title">Customs Coordination</div>
+        <div class="svc-desc">Navigating customs doesn't have to be stressful. We prepare and review all required documentation to ensure your cargo clears borders without delays or penalties.</div>
+        <div class="svc-link">Learn more <svg viewBox="0 0 16 16"><path d="M6 4l4 4-4 4"/></svg></div>
+      </div>
+      <div class="service-card fade-up" role="button" tabindex="0" onclick="openService('docs')" onkeypress="if(event.key===&quot;Enter&quot;)openService('docs')">
+        <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg></div>
+        <div class="svc-title">Documentation Support</div>
+        <div class="svc-desc">Accurate, compliant shipping documents every time. Commercial invoices, packing lists, bills of lading, certificates of origin, and more — handled by experts.</div>
+        <div class="svc-link">Learn more <svg viewBox="0 0 16 16"><path d="M6 4l4 4-4 4"/></svg></div>
+      </div>
+      <div class="service-card fade-up" role="button" tabindex="0" onclick="openService('inland')" onkeypress="if(event.key===&quot;Enter&quot;)openService('inland')">
+        <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"/><path d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10l1 1h12l-1-1H5V7h7v10h1z"/></svg></div>
+        <div class="svc-title">Inland Transportation</div>
+        <div class="svc-desc">Port-to-door drayage and inland trucking coordination. We connect your shipments from seaport or airport to their final destination — efficiently and reliably.</div>
+        <div class="svc-link">Learn more <svg viewBox="0 0 16 16"><path d="M6 4l4 4-4 4"/></svg></div>
+      </div>
+      <div class="service-card fade-up" role="button" tabindex="0" onclick="openService('warehouse')" onkeypress="if(event.key===&quot;Enter&quot;)openService('warehouse')">
+        <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M4 7a2 2 0 012-2h12a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V7zm10 7H6v2h8v-2zm2-4H6v2h10v-2z"/></svg></div>
+        <div class="svc-title">Warehousing & Distribution</div>
+        <div class="svc-desc">Short and long-term warehousing coordination at key U.S. logistics hubs. Inventory management, palletization, and distribution support for importers and e-commerce sellers.</div>
+        <div class="svc-link">Learn more <svg viewBox="0 0 16 16"><path d="M6 4l4 4-4 4"/></svg></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="works-section" id="how-it-works">
+  <div class="container">
+    <div class="section-header center fade-up">
+      <div class="section-tag" style="background:rgba(232,160,32,0.15);color:var(--accent-light)">How It Works</div>
+      <h2 class="section-title light">Shipping Made Simple.<br>From Quote to Delivery.</h2>
+      <p class="section-sub light">Whether you're a first-time shipper or an experienced importer, our process is built to be clear, fast, and stress-free.</p>
+    </div>
+    <div class="steps-grid fade-up">
+      <div class="step-card">
+        <div class="step-num">01</div>
+        <div class="step-title">Submit Your Inquiry</div>
+        <div class="step-desc">Share your shipment details — origin, destination, cargo type, and timeline. We handle the rest. No jargon, no guesswork.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">02</div>
+        <div class="step-title">Receive Your Quote</div>
+        <div class="step-desc">We analyze your requirements and return a competitive, transparent quote within 24–48 hours with full cost breakdown.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">03</div>
+        <div class="step-title">We Book & Coordinate</div>
+        <div class="step-desc">Once confirmed, we book your cargo with the right carrier, prepare all documents, and coordinate pickup or inland transport.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">04</div>
+        <div class="step-title">Customs & Clearance</div>
+        <div class="step-desc">We prepare and submit required customs documentation at origin and destination to ensure smooth border crossing.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">05</div>
+        <div class="step-title">Delivery & Confirmation</div>
+        <div class="step-desc">Your cargo arrives safely and on schedule. We send you delivery confirmation and are available for any post-delivery support.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRADE LANES -->
+<section class="lanes-section" id="lanes">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="section-tag">Trade Coverage</div>
+      <h2 class="section-title">Our Core Trade Lanes</h2>
+      <p class="section-sub">We specialize in high-volume U.S. trade lanes to Asia and the Middle East — with deep carrier relationships and local expertise at every port.</p>
+    </div>
+    <div class="lanes-grid fade-up">
+      <div class="lane-card">
+        <div class="lane-flag">🇺🇸 ↔ 🇮🇳</div>
+        <div class="lane-title">USA – India</div>
+        <div class="lane-sub">Ports: JNPT, Mundra, Chennai, Kolkata, Cochin</div>
+        <div class="lane-tags">
+          <span class="lane-tag">Ocean FCL</span>
+          <span class="lane-tag">Ocean LCL</span>
+          <span class="lane-tag">Air Cargo</span>
+          <span class="lane-tag">Project Cargo</span>
+          <span class="lane-tag">Hazmat</span>
+          <span class="lane-tag">Textiles & Apparel</span>
+          <span class="lane-tag">Pharmaceuticals</span>
+          <span class="lane-tag">Industrial Equipment</span>
+        </div>
+      </div>
+      <div class="lane-card">
+        <div class="lane-flag">🇺🇸 ↔ 🇦🇪</div>
+        <div class="lane-title">USA – UAE</div>
+        <div class="lane-sub">Ports: Jebel Ali (DXB), Abu Dhabi, Sharjah</div>
+        <div class="lane-tags">
+          <span class="lane-tag">Ocean FCL</span>
+          <span class="lane-tag">Ocean LCL</span>
+          <span class="lane-tag">Air Express</span>
+          <span class="lane-tag">FTZ Coordination</span>
+          <span class="lane-tag">Consumer Goods</span>
+          <span class="lane-tag">Technology</span>
+          <span class="lane-tag">Auto Parts</span>
+        </div>
+      </div>
+      <div class="lane-card">
+        <div class="lane-flag">🇺🇸 ↔ 🇨🇳</div>
+        <div class="lane-title">USA – China</div>
+        <div class="lane-sub">Ports: Shanghai, Shenzhen, Ningbo, Guangzhou, Tianjin</div>
+        <div class="lane-tags">
+          <span class="lane-tag">Ocean FCL</span>
+          <span class="lane-tag">Ocean LCL</span>
+          <span class="lane-tag">Air Freight</span>
+          <span class="lane-tag">Cross-border</span>
+          <span class="lane-tag">E-commerce</span>
+          <span class="lane-tag">Manufacturing</span>
+          <span class="lane-tag">Sourcing Logistics</span>
+        </div>
+      </div>
+      <div class="lane-card" style="background:var(--navy);border-color:var(--navy-light)">
+        <div class="lane-flag" style="color:var(--accent)">🌐</div>
+        <div class="lane-title" style="color:white">Global Reach</div>
+        <div class="lane-sub" style="color:rgba(255,255,255,0.45)">50+ countries via partner agent network</div>
+        <p style="font-size:0.85rem;color:rgba(255,255,255,0.55);line-height:1.6;margin-bottom:1rem">Don't see your lane? We work with a trusted global agent network to handle cargo to virtually any destination. Contact us for custom routing options.</p>
+        <a href="#contact" class="btn-outline" style="font-size:0.8rem;padding:0.5rem 1rem">Ask About Your Route →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="about">
+  <div class="container">
+    <div class="why-grid">
+      <div>
+        <div class="section-tag fade-up">Why Seairod Logistics</div>
+        <h2 class="section-title fade-up">A Freight Partner You Can Actually Rely On</h2>
+        <p class="section-sub fade-up" style="margin-bottom:2.5rem">We're not a faceless platform — we're logistics operators with real expertise, real carrier relationships, and real accountability for your cargo.</p>
+        <div class="why-list">
+          <div class="why-item fade-up">
+            <div class="why-check"><svg viewBox="0 0 16 16"><path d="M13.5 3L6 10.5 2.5 7 1 8.5l5 5 9-9L13.5 3z"/></svg></div>
+            <div>
+              <div class="why-title">FMC-Licensed NVOCC</div>
+              <div class="why-desc">We operate as a licensed Non-Vessel Operating Common Carrier under U.S. Federal Maritime Commission regulations — giving you the legal protections and rate authority you need.</div>
+            </div>
+          </div>
+          <div class="why-item fade-up">
+            <div class="why-check"><svg viewBox="0 0 16 16"><path d="M13.5 3L6 10.5 2.5 7 1 8.5l5 5 9-9L13.5 3z"/></svg></div>
+            <div>
+              <div class="why-title">Personalized Service, Not Automation</div>
+              <div class="why-desc">Every inquiry is reviewed by a real logistics professional. You'll always know who is handling your shipment and can reach them directly.</div>
+            </div>
+          </div>
+          <div class="why-item fade-up">
+            <div class="why-check"><svg viewBox="0 0 16 16"><path d="M13.5 3L6 10.5 2.5 7 1 8.5l5 5 9-9L13.5 3z"/></svg></div>
+            <div>
+              <div class="why-title">Documentation Accuracy</div>
+              <div class="why-desc">Errors in shipping documents cause costly delays and customs holds. We review every document before submission to ensure accuracy and compliance.</div>
+            </div>
+          </div>
+          <div class="why-item fade-up">
+            <div class="why-check"><svg viewBox="0 0 16 16"><path d="M13.5 3L6 10.5 2.5 7 1 8.5l5 5 9-9L13.5 3z"/></svg></div>
+            <div>
+              <div class="why-title">Transparent Pricing</div>
+              <div class="why-desc">No hidden fees. No vague all-in rates. We provide itemized quotes so you understand exactly what you're paying and why.</div>
+            </div>
+          </div>
+          <div class="why-item fade-up">
+            <div class="why-check"><svg viewBox="0 0 16 16"><path d="M13.5 3L6 10.5 2.5 7 1 8.5l5 5 9-9L13.5 3z"/></svg></div>
+            <div>
+              <div class="why-title">Fast Communication</div>
+              <div class="why-desc">We respond to inquiries within 24 hours and quote within 48 hours. When time-sensitive issues arise, we're reachable by phone, email, or WhatsApp.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="why-visual fade-up">
+        <div class="why-visual-title">Performance Overview</div>
+        <div class="metric-row">
+          <div>
+            <div class="metric-label">Quote Turnaround</div>
+            <div class="metric-bar"><div class="metric-fill" style="width:90%"></div></div>
+          </div>
+          <div class="metric-val"><em>24–48</em> hrs</div>
+        </div>
+        <div class="metric-row">
+          <div>
+            <div class="metric-label">Documentation Accuracy</div>
+            <div class="metric-bar"><div class="metric-fill" style="width:98%"></div></div>
+          </div>
+          <div class="metric-val"><em>98%</em> first-pass</div>
+        </div>
+        <div class="metric-row">
+          <div>
+            <div class="metric-label">On-Time Booking Rate</div>
+            <div class="metric-bar"><div class="metric-fill" style="width:95%"></div></div>
+          </div>
+          <div class="metric-val"><em>95%</em></div>
+        </div>
+        <div class="metric-row">
+          <div>
+            <div class="metric-label">Active Trade Lanes</div>
+            <div class="metric-bar"><div class="metric-fill" style="width:60%"></div></div>
+          </div>
+          <div class="metric-val"><em>3</em> primary</div>
+        </div>
+        <div class="metric-row">
+          <div>
+            <div class="metric-label">Client Satisfaction</div>
+            <div class="metric-bar"><div class="metric-fill" style="width:96%"></div></div>
+          </div>
+          <div class="metric-val"><em>4.9 / 5</em></div>
+        </div>
+        <div style="margin-top:2rem;padding:1.25rem;background:rgba(232,160,32,0.1);border-radius:var(--r-lg);border:1px solid rgba(232,160,32,0.2)">
+          <p style="font-size:0.78rem;color:rgba(255,255,255,0.5);line-height:1.5">Seairod Logistics is structured to scale with your business — from a single FCL shipment to recurring trade lane management and multi-lane programs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="lanes-section" id="industries">
+  <div class="container">
+    <div class="section-header center fade-up">
+      <div class="section-tag">Industries We Serve</div>
+      <h2 class="section-title">Who We Ship For</h2>
+      <p class="section-sub">We serve importers, exporters, and traders across many industries. Tap any sector to see the typical approvals and documents required to clear it.</p>
+    </div>
+    <div class="industries-grid fade-up">
+      <div class="industry-item" role="button" tabindex="0" onclick="openIndustry('textiles')" onkeypress="if(event.key===&quot;Enter&quot;)openIndustry('textiles')"><div class="industry-icon">🧵</div><div class="industry-label">Textiles & Apparel</div><div class="industry-more">View documents →</div></div>
+      <div class="industry-item" role="button" tabindex="0" onclick="openIndustry('industrial')" onkeypress="if(event.key===&quot;Enter&quot;)openIndustry('industrial')"><div class="industry-icon">⚙️</div><div class="industry-label">Industrial Equipment</div><div class="industry-more">View documents →</div></div>
+      <div class="industry-item" role="button" tabindex="0" onclick="openIndustry('pharma')" onkeypress="if(event.key===&quot;Enter&quot;)openIndustry('pharma')"><div class="industry-icon">💊</div><div class="industry-label">Pharmaceuticals</div><div class="industry-more">View documents →</div></div>
+      <div class="industry-item" role="button" tabindex="0" onclick="openIndustry('ecommerce')" onkeypress="if(event.key===&quot;Enter&quot;)openIndustry('ecommerce')"><div class="industry-icon">🛒</div><div class="industry-label">E-Commerce / Amazon</div><div class="industry-more">View documents →</div></div>
+      <div class="industry-item" role="button" tabindex="0" onclick="openIndustry('food')" onkeypress="if(event.key===&quot;Enter&quot;)openIndustry('food')"><div class="industry-icon">🍛</div><div class="industry-label">Food & Agri</div><div class="industry-more">View documents →</div></div>
+      <div class="industry-item" role="button" tabindex="0" onclick="openIndustry('chemicals')" onkeypress="if(event.key===&quot;Enter&quot;)openIndustry('chemicals')"><div class="industry-icon">🧪</div><div class="industry-label">Chemicals</div><div class="industry-more">View documents →</div></div>
+      <div class="industry-item" role="button" tabindex="0" onclick="openIndustry('electronics')" onkeypress="if(event.key===&quot;Enter&quot;)openIndustry('electronics')"><div class="industry-icon">🖥️</div><div class="industry-label">Electronics & Tech</div><div class="industry-more">View documents →</div></div>
+      <div class="industry-item" role="button" tabindex="0" onclick="openIndustry('auto')" onkeypress="if(event.key===&quot;Enter&quot;)openIndustry('auto')"><div class="industry-icon">🚗</div><div class="industry-label">Auto Parts</div><div class="industry-more">View documents →</div></div>
+      <div class="industry-item" role="button" tabindex="0" onclick="openIndustry('construction')" onkeypress="if(event.key===&quot;Enter&quot;)openIndustry('construction')"><div class="industry-icon">🏗️</div><div class="industry-label">Construction Goods</div><div class="industry-more">View documents →</div></div>
+      <div class="industry-item" role="button" tabindex="0" onclick="openIndustry('beauty')" onkeypress="if(event.key===&quot;Enter&quot;)openIndustry('beauty')"><div class="industry-icon">💄</div><div class="industry-label">Beauty & Cosmetics</div><div class="industry-more">View documents →</div></div>
+      <div class="industry-item" role="button" tabindex="0" onclick="openIndustry('manufacturing')" onkeypress="if(event.key===&quot;Enter&quot;)openIndustry('manufacturing')"><div class="industry-icon">🏭</div><div class="industry-label">Manufacturing</div><div class="industry-more">View documents →</div></div>
+      <div class="industry-item" role="button" tabindex="0" onclick="openIndustry('general')" onkeypress="if(event.key===&quot;Enter&quot;)openIndustry('general')"><div class="industry-icon">📦</div><div class="industry-label">General Merchandise</div><div class="industry-more">View documents →</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section">
+  <div class="container">
+    <div class="section-header center fade-up">
+      <div class="section-tag" style="background:rgba(232,160,32,0.15);color:var(--accent-light)">Client Feedback</div>
+      <h2 class="section-title light">What Our Clients Say</h2>
+      <p class="section-sub light">Real feedback from importers, exporters, and traders who trusted Seairod Logistics with their cargo.</p>
+    </div>
+    <div class="testimonials-grid fade-up">
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <div class="testimonial-text">"Seairod Logistics handled our India export shipments with exceptional care. Documentation was spotless, timelines were met, and their team kept us informed at every stage. We've made them our preferred freight partner."</div>
+        <div class="testimonial-author">
+          <div class="author-avatar">RK</div>
+          <div><div class="author-name">Rajesh K.</div><div class="author-role">Director, Textile Exports — Mumbai</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <div class="testimonial-text">"As an Amazon seller importing from China, logistics used to be my biggest headache. Seairod Logistics simplified everything — from freight quotes to customs clearance. Highly recommended for e-commerce importers."</div>
+        <div class="testimonial-author">
+          <div class="author-avatar">SM</div>
+          <div><div class="author-name">Sarah M.</div><div class="author-role">E-Commerce Seller — Houston, TX</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <div class="testimonial-text">"We ship industrial parts between the UAE and USA regularly. Seairod Logistics gave us transparent rates and handled the customs complexity with professionalism. Our cargo has never arrived late under their management."</div>
+        <div class="testimonial-author">
+          <div class="author-avatar">AH</div>
+          <div><div class="author-name">Ali H.</div><div class="author-role">Procurement Manager — Dubai, UAE</div></div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:2rem">
+      <p style="font-size:0.78rem;color:rgba(255,255,255,0.3);font-style:italic">[Testimonials are representative. Client names used with permission. More references available upon request.]</p>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE FORM -->
+<section class="quote-section" id="quote">
+  <div class="container">
+    <div class="quote-wrapper">
+      <div class="quote-info fade-up">
+        <div class="section-tag">Free Quote</div>
+        <div class="quote-info-title">Get Your Freight Quote in 3 Easy Steps</div>
+        <div class="quote-info-sub">Fill out the form on the right and our team will return a competitive, fully itemized freight quote within 24–48 business hours. No obligation, no spam.</div>
+        <div class="quote-steps">
+          <div class="qstep"><div class="qstep-num">1</div><div class="qstep-text"><strong>Tell us about your shipment</strong> — cargo type, weight, dimensions, and route</div></div>
+          <div class="qstep"><div class="qstep-num">2</div><div class="qstep-text"><strong>Choose your services</strong> — ocean or air, customs support, warehousing, pickup</div></div>
+          <div class="qstep"><div class="qstep-num">3</div><div class="qstep-text"><strong>Share your contact details</strong> — we'll reply with a transparent, detailed quote</div></div>
+        </div>
+        <div style="margin-top:2rem;padding:1.25rem;background:var(--white);border:1px solid var(--gray-200);border-radius:var(--r-lg)">
+          <div style="font-size:0.72rem;font-weight:700;color:var(--text-light);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5rem">Need Immediate Help?</div>
+          <a href="tel:+1XXXXXXXXXX" style="display:flex;align-items:center;gap:6px;color:var(--sky);font-weight:600;font-size:0.875rem;margin-bottom:0.35rem">
+            <svg viewBox="0 0 16 16" style="width:14px;height:14px;fill:currentColor"><path d="M2 3a2 2 0 012-2h2.5c.3 0 .6.2.7.5l1 3c.1.3 0 .7-.2.9L6.7 6.7a10 10 0 004.6 4.6l1.3-1.3c.2-.2.6-.3.9-.2l3 1c.3.1.5.4.5.7V14a2 2 0 01-2 2A14 14 0 012 3z"/></svg>
+            +1 (XXX) XXX-XXXX
+          </a>
+          <a href="mailto:info@seairodlogistics.com" style="display:flex;align-items:center;gap:6px;color:var(--sky);font-weight:600;font-size:0.875rem">
+            <svg viewBox="0 0 16 16" style="width:14px;height:14px;fill:currentColor"><path d="M2 4a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V4zm2-.5a.5.5 0 00-.5.5v.379l4.5 3 4.5-3V4a.5.5 0 00-.5-.5H4zm8 1.86L8 8.33 4 5.36V12a.5.5 0 00.5.5h7a.5.5 0 00.5-.5V5.36z"/></svg>
+            info@seairodlogistics.com
+          </a>
+        </div>
+      </div>
+      <div class="fade-up">
+        <form class="quote-form" id="quoteForm" name="quote" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="quote">
+          <input type="hidden" name="direction" id="hf_direction">
+          <input type="hidden" name="mode" id="hf_mode">
+          <input type="hidden" name="container" id="hf_container">
+          <input type="hidden" name="stackable" id="hf_stackable">
+          <input type="hidden" name="cargo_type" id="hf_cargo_type">
+          <input type="hidden" name="chargeable_weight" id="hf_chargeable">
+          <p class="netlify-hp"><label>Don’t fill this out if you’re human: <input name="bot-field"></label></p>
+          <div class="form-progress">
+            <div class="form-step-indicator active" id="prog1">1 · Shipment</div>
+            <div class="form-step-indicator" id="prog2">2 · Services</div>
+            <div class="form-step-indicator" id="prog3">3 · Contact</div>
+          </div>
+
+          <!-- STEP 1 -->
+          <div class="form-section active" id="step1">
+            <div class="form-divider">Shipment Direction</div>
+            <div class="form-group">
+              <label class="form-label">Are you importing or exporting?</label>
+              <div class="chip-group" id="directionChips">
+                <div class="chip" onclick="selectChip(this,'direction')">Importing to USA</div>
+                <div class="chip" onclick="selectChip(this,'direction')">Exporting from USA</div>
+                <div class="chip" onclick="selectChip(this,'direction')">Both / Not sure</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Freight Mode</label>
+              <div class="chip-group" id="modeChips">
+                <div class="chip" onclick="selectChip(this,'mode')" data-mode="ocean">🚢 Ocean Freight</div>
+                <div class="chip" onclick="selectChip(this,'mode')" data-mode="air">✈️ Air Freight</div>
+                <div class="chip" onclick="selectChip(this,'mode')" data-mode="both">Both / Unsure</div>
+              </div>
+            </div>
+            <div class="form-divider">Route Details</div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Origin Country / Port</label>
+                <input type="text" class="form-control" placeholder="e.g. Mumbai, India" id="origin" name="origin">
+                <div class="form-hint">City, country, or port name</div>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Destination Country / Port</label>
+                <input type="text" class="form-control" placeholder="e.g. Los Angeles, USA" id="destination" name="destination">
+              </div>
+            </div>
+            <div class="form-divider">Cargo Details</div>
+            <div class="form-group">
+              <label class="form-label">Commodity / Cargo Type</label>
+              <input type="text" class="form-control" placeholder="e.g. Textile fabrics, Machine parts, Electronics..." id="commodity" name="commodity">
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Estimated Weight <span>(optional)</span></label>
+                <input type="text" class="form-control" placeholder="e.g. 5,000 kg" id="weight" name="weight">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Volume / CBM <span>(optional)</span></label>
+                <input type="text" class="form-control" placeholder="e.g. 20 CBM" id="cbm" name="cbm">
+              </div>
+            </div>
+            <!-- OCEAN-SPECIFIC -->
+            <div id="oceanOptions" style="display:none">
+              <div class="form-divider">Ocean Cargo Details</div>
+              <div class="form-group">
+                <label class="form-label">Container Preference</label>
+                <div class="chip-group">
+                  <div class="chip" onclick="selectChip(this,'container')">FCL – 20ft</div>
+                  <div class="chip" onclick="selectChip(this,'container')">FCL – 40ft</div>
+                  <div class="chip" onclick="selectChip(this,'container')">FCL – 40ft HC</div>
+                  <div class="chip" onclick="selectChip(this,'container')">LCL (shared)</div>
+                  <div class="chip" onclick="selectChip(this,'container')">Not sure</div>
+                </div>
+              </div>
+            </div>
+            <!-- AIR-SPECIFIC -->
+            <div id="airOptions" style="display:none">
+              <div class="form-divider">Air Cargo Details</div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Number of Pieces / Packages</label>
+                  <input type="text" inputmode="numeric" class="form-control" placeholder="e.g. 12" id="airPieces" name="air_pieces" oninput="calcChargeable()">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Total Gross Weight (kg)</label>
+                  <input type="text" inputmode="decimal" class="form-control" placeholder="e.g. 850" id="airWeight" name="air_weight" oninput="calcChargeable()">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Dimensions per Piece <span>(L × W × H, cm)</span></label>
+                <div class="dim-row">
+                  <input type="text" inputmode="decimal" class="form-control" placeholder="L" id="airL" name="air_length" oninput="calcChargeable()">
+                  <span class="dim-x">×</span>
+                  <input type="text" inputmode="decimal" class="form-control" placeholder="W" id="airW" name="air_width" oninput="calcChargeable()">
+                  <span class="dim-x">×</span>
+                  <input type="text" inputmode="decimal" class="form-control" placeholder="H" id="airH" name="air_height" oninput="calcChargeable()">
+                </div>
+                <div class="form-hint">Used to estimate volumetric / chargeable weight (L×W×H ÷ 6000 per piece)</div>
+              </div>
+              <div class="chargeable-box" id="chargeableBox" style="display:none">
+                <div>
+                  <div class="chargeable-label">Estimated Chargeable Weight</div>
+                  <div class="chargeable-value" id="chargeableValue">—</div>
+                </div>
+                <div class="chargeable-note" id="chargeableNote"></div>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Are the packages stackable?</label>
+                <div class="chip-group">
+                  <div class="chip" onclick="selectChip(this,'stack')">Yes, stackable</div>
+                  <div class="chip" onclick="selectChip(this,'stack')">No, non-stackable</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Cargo Type</label>
+                <div class="chip-group">
+                  <div class="chip" onclick="selectChip(this,'cargotype')">General</div>
+                  <div class="chip" onclick="selectChip(this,'cargotype')">Perishable</div>
+                  <div class="chip" onclick="selectChip(this,'cargotype')">Dangerous Goods</div>
+                  <div class="chip" onclick="selectChip(this,'cargotype')">Pharma / Temp-Controlled</div>
+                  <div class="chip" onclick="selectChip(this,'cargotype')">Oversized</div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Service Level</label>
+                  <select class="form-control" id="airService" name="air_service">
+                    <option value="">Select...</option>
+                    <option>Express (fastest)</option>
+                    <option>Standard</option>
+                    <option>Economy (best rate)</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Declared Value <span>(insurance, optional)</span></label>
+                  <input type="text" class="form-control" placeholder="e.g. $25,000" id="airValue" name="declared_value">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Target Ready Date <span>(optional)</span></label>
+              <input type="date" class="form-control" id="readyDate" name="ready_date">
+            </div>
+            <div class="form-nav">
+              <span></span>
+              <button type="button" class="btn-form-next" onclick="goStep(2)">Next: Services →</button>
+            </div>
+          </div>
+
+          <!-- STEP 2 -->
+          <div class="form-section" id="step2">
+            <div class="form-divider">Additional Services Needed</div>
+            <div class="toggle-row">
+              <div>
+                <div class="toggle-label">Pickup from supplier/warehouse</div>
+                <div class="toggle-sublabel">Origin inland pickup coordination</div>
+              </div>
+              <label class="toggle"><input type="checkbox" id="t-pickup" name="svc_pickup" value="Yes"><span class="slider-toggle"></span></label>
+            </div>
+            <div class="toggle-row">
+              <div>
+                <div class="toggle-label">Customs documentation support</div>
+                <div class="toggle-sublabel">We prepare and review all customs paperwork</div>
+              </div>
+              <label class="toggle"><input type="checkbox" id="t-customs" name="svc_customs" value="Yes" checked><span class="slider-toggle"></span></label>
+            </div>
+            <div class="toggle-row">
+              <div>
+                <div class="toggle-label">Delivery to final destination</div>
+                <div class="toggle-sublabel">Inland drayage / last-mile delivery</div>
+              </div>
+              <label class="toggle"><input type="checkbox" id="t-delivery" name="svc_delivery" value="Yes"><span class="slider-toggle"></span></label>
+            </div>
+            <div class="toggle-row">
+              <div>
+                <div class="toggle-label">Warehousing / storage coordination</div>
+                <div class="toggle-sublabel">Short or long-term at U.S. logistics hub</div>
+              </div>
+              <label class="toggle"><input type="checkbox" id="t-warehouse" name="svc_warehouse" value="Yes"><span class="slider-toggle"></span></label>
+            </div>
+            <div class="toggle-row">
+              <div>
+                <div class="toggle-label">Cargo insurance</div>
+                <div class="toggle-sublabel">We can coordinate marine cargo insurance</div>
+              </div>
+              <label class="toggle"><input type="checkbox" id="t-insurance" name="svc_insurance" value="Yes"><span class="slider-toggle"></span></label>
+            </div>
+            <div class="form-divider">Shipment Urgency</div>
+            <div class="form-group">
+              <label class="form-label">Timeline / Urgency</label>
+              <select class="form-control" id="urgency" name="urgency">
+                <option value="">Select timeline...</option>
+                <option>ASAP – As fast as possible</option>
+                <option>Within 2 weeks</option>
+                <option>Within 30 days</option>
+                <option>Flexible – Best rate priority</option>
+                <option>Recurring – Regular shipment</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Special Requirements <span>(optional)</span></label>
+              <textarea class="form-control" rows="3" placeholder="Hazardous goods, temperature control, oversized cargo, specific carrier preferences..." id="special" name="special"></textarea>
+            </div>
+            <div class="form-nav">
+              <button type="button" class="btn-form-back" onclick="goStep(1)">← Back</button>
+              <button type="button" class="btn-form-next" onclick="goStep(3)">Next: Your Details →</button>
+            </div>
+          </div>
+
+          <!-- STEP 3 -->
+          <div class="form-section" id="step3">
+            <div class="form-divider">Your Contact Information</div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" placeholder="Your full name" id="fname" name="name" autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Company Name <span>(optional)</span></label>
+                <input type="text" class="form-control" placeholder="Company / Business name" id="company" name="company" autocomplete="organization">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-control" placeholder="you@company.com" id="email" name="email" autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Phone / WhatsApp</label>
+                <input type="tel" class="form-control" placeholder="+1 (XXX) XXX-XXXX" id="phone" name="phone" autocomplete="tel">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">How did you hear about us? <span>(optional)</span></label>
+              <select class="form-control" id="source" name="hear_about">
+                <option value="">Select...</option>
+                <option>Google Search</option>
+                <option>LinkedIn</option>
+                <option>Referral from client or partner</option>
+                <option>Industry forum / community</option>
+                <option>Trade show or event</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Additional Notes <span>(optional)</span></label>
+              <textarea class="form-control" rows="3" placeholder="Any additional context, questions, or shipment background..." id="notes" name="notes"></textarea>
+            </div>
+            <div style="padding:0.75rem;background:var(--off-white);border-radius:var(--r);margin-bottom:1.25rem;font-size:0.75rem;color:var(--text-light);line-height:1.5">
+              By submitting this form, you agree that Seairod Logistics LLC may contact you regarding your inquiry. We do not sell or share your information. View our <a href="#" style="color:var(--sky)">Privacy Policy</a>.
+            </div>
+            <div class="form-nav">
+              <button type="button" class="btn-form-back" onclick="goStep(2)">← Back</button>
+              <button type="button" id="quoteSubmitBtn" class="btn-submit" onclick="submitForm()">Submit Quote Request →</button>
+            </div>
+          </div>
+
+          <!-- SUCCESS -->
+          <div class="success-msg" id="successMsg">
+            <div class="success-icon"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg></div>
+            <div class="success-title">Quote Request Received!</div>
+            <div class="success-sub">Thank you for contacting Seairod Logistics LLC. Our team will review your shipment details and return a competitive quote within <strong>24–48 business hours</strong>.<br><br>Check your email for a confirmation. If you need urgent assistance, call us directly at <a href="tel:+1XXXXXXXXXX" style="color:var(--sky)">+1 (XXX) XXX-XXXX</a> or reach us on WhatsApp.</div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container" style="max-width:820px">
+    <div class="section-header center fade-up">
+      <div class="section-tag">FAQ</div>
+      <h2 class="section-title">Common Questions Answered</h2>
+      <p class="section-sub">Whether you're new to international shipping or a seasoned importer — here are answers to the questions we hear most often.</p>
+    </div>
+    <div class="faq-list fade-up">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">What is a freight forwarder and what do you actually do?</span>
+          <div class="faq-q-icon"><svg viewBox="0 0 12 12"><path d="M6 1v10M1 6h10"/></svg></div>
+        </div>
+        <div class="faq-a">A freight forwarder is an intermediary that organizes the transportation of goods on behalf of importers and exporters. We don't own vessels or aircraft — instead, we leverage relationships with carriers, agents, customs brokers, and truckers to coordinate your entire shipment from pickup to delivery. Think of us as your logistics operations team without the overhead.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">What does FCL and LCL mean?</span>
+          <div class="faq-q-icon"><svg viewBox="0 0 12 12"><path d="M6 1v10M1 6h10"/></svg></div>
+        </div>
+        <div class="faq-a">FCL stands for Full Container Load — you book an entire 20ft or 40ft container for your cargo. LCL (Less than Container Load) means your cargo shares container space with other shippers, and you only pay for your portion. FCL is better for large volume and security; LCL is better for smaller loads or when cost efficiency matters more than speed.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">How long does ocean freight from India or China to USA take?</span>
+          <div class="faq-q-icon"><svg viewBox="0 0 12 12"><path d="M6 1v10M1 6h10"/></svg></div>
+        </div>
+        <div class="faq-a">Transit times vary by route and port pair. India to USA (East Coast) typically takes 18–28 days. India to USA (West Coast via JNPT–Los Angeles) is around 20–26 days. China to USA West Coast is typically 12–18 days. Add 3–7 days for customs clearance and inland delivery at destination. We'll give you a realistic timeline estimate in your quote.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">What documents do I need to import or export goods?</span>
+          <div class="faq-q-icon"><svg viewBox="0 0 12 12"><path d="M6 1v10M1 6h10"/></svg></div>
+        </div>
+        <div class="faq-a">For most international shipments you'll need: a Commercial Invoice, Packing List, Bill of Lading (ocean) or Airway Bill (air), Certificate of Origin (if applicable), and any product-specific certifications. For U.S. imports, your customs broker (which we can coordinate) handles ISF filing and entry documentation. We guide you on every document required for your specific trade lane.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">Do you handle customs clearance?</span>
+          <div class="faq-q-icon"><svg viewBox="0 0 12 12"><path d="M6 1v10M1 6h10"/></svg></div>
+        </div>
+        <div class="faq-a">Yes — we coordinate customs documentation support and work with licensed customs brokers at origin and destination to facilitate clearance. We review your commercial invoice, HS codes, and entry details for accuracy. Customs broker fees and duties/taxes are separate and will be outlined transparently in your quote.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">What is an NVOCC and why does it matter?</span>
+          <div class="faq-q-icon"><svg viewBox="0 0 12 12"><path d="M6 1v10M1 6h10"/></svg></div>
+        </div>
+        <div class="faq-a">NVOCC stands for Non-Vessel Operating Common Carrier. It's a regulated classification under the U.S. Federal Maritime Commission (FMC) that allows freight forwarders to issue their own Bills of Lading and offer independent ocean freight rates. Operating as a licensed NVOCC means Seairod Logistics can provide you with legal protections, competitive rates, and accountability that unlicensed operators cannot.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">How quickly can I get a freight quote?</span>
+          <div class="faq-q-icon"><svg viewBox="0 0 12 12"><path d="M6 1v10M1 6h10"/></svg></div>
+        </div>
+        <div class="faq-a">Standard quotes are returned within 24–48 business hours of receiving your shipment details. For time-sensitive situations, contact us directly by phone or WhatsApp and our team will prioritize your request. The more detail you provide in your inquiry (commodity, weight, route, timeline), the faster and more accurate your quote will be.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="faq-q-text">Can you handle cargo insurance?</span>
+          <div class="faq-q-icon"><svg viewBox="0 0 12 12"><path d="M6 1v10M1 6h10"/></svg></div>
+        </div>
+        <div class="faq-a">Yes. We can coordinate marine cargo insurance coverage for your shipment. Insurance protects your goods against loss, damage, or theft during transit. We strongly recommend it for high-value shipments. Let us know in your quote request and we'll include insurance options in your proposal.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<div class="cta-banner fade-up">
+  <div class="cta-banner-content">
+    <h2>Ready to Move Your Cargo?</h2>
+    <p>Get a competitive, transparent freight quote from a licensed NVOCC team that actually responds — within 24 to 48 hours, guaranteed.</p>
+    <div class="cta-actions">
+      <a href="#quote" class="btn-primary">Request a Free Quote →</a>
+      <a href="#contact" class="btn-outline">Speak to a Logistics Expert</a>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="section-tag">Get in Touch</div>
+      <h2 class="section-title">We're Here When You Need Us</h2>
+      <p class="section-sub">Whether you have a quick question or a complex shipment to discuss — reach out and a logistics expert will respond within one business day.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info fade-up">
+        <div class="contact-block">
+          <div class="contact-block-icon"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M2 3a2 2 0 012-2h2.5c.3 0 .6.2.7.5l1 3c.1.3 0 .7-.2.9L6.7 6.7a10 10 0 004.6 4.6l1.3-1.3c.2-.2.6-.3.9-.2l3 1c.3.1.5.4.5.7V14a2 2 0 01-2 2A14 14 0 012 3z"/></svg></div>
+          <div>
+            <div class="contact-block-title">Phone</div>
+            <div class="contact-block-text"><a href="tel:+1XXXXXXXXXX">+1 (XXX) XXX-XXXX</a><br><span style="font-size:0.75rem;color:var(--text-light)">Mon–Fri, 9am–6pm CST</span></div>
+          </div>
+        </div>
+        <div class="contact-block">
+          <div class="contact-block-icon"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg></div>
+          <div>
+            <div class="contact-block-title">Email</div>
+            <div class="contact-block-text"><a href="mailto:info@seairodlogistics.com">info@seairodlogistics.com</a><br><span style="font-size:0.75rem;color:var(--text-light)">We respond within 24 hours</span></div>
+          </div>
+        </div>
+        <div class="contact-block">
+          <div class="contact-block-icon" style="background:#E7F9EF"><svg viewBox="0 0 20 20" fill="#25D366"><path d="M10 0C4.477 0 0 4.477 0 10c0 1.76.457 3.4 1.26 4.83L0 20l5.3-1.39A9.95 9.95 0 0010 20c5.523 0 10-4.477 10-10S15.523 0 10 0zm5.16 14.01c-.22.6-1.27 1.14-1.75 1.18-.46.04-.47.35-2.97-.68-2.72-1.12-4.33-3.88-4.46-4.06-.13-.18-1.04-1.44-1.04-2.74 0-1.3.66-1.93.9-2.19.24-.26.52-.33.7-.33.17 0 .35.01.5.01.16.01.37-.06.58.47.22.54.75 1.84.82 1.97.07.14.11.3.02.48-.09.18-.13.29-.26.45-.13.16-.27.36-.39.48-.13.12-.26.26-.11.51.15.25.67 1.15 1.44 1.86.99.91 1.82 1.19 2.08 1.32.26.13.41.11.56-.07.15-.18.65-.79.82-1.06.17-.27.34-.22.57-.13.23.09 1.47.72 1.72.85.25.13.42.2.48.31.06.11.06.67-.16 1.27z"/></svg></div>
+          <div>
+            <div class="contact-block-title">WhatsApp</div>
+            <div class="contact-block-text"><a href="https://wa.me/1XXXXXXXXXX" target="_blank">Chat on WhatsApp →</a><br><span style="font-size:0.75rem;color:var(--text-light)">Quick responses for urgent inquiries</span></div>
+          </div>
+        </div>
+        <div class="contact-block">
+          <div class="contact-block-icon"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/></svg></div>
+          <div>
+            <div class="contact-block-title">Office</div>
+            <div class="contact-block-text">Seairod Logistics LLC<br>[Street Address]<br>Houston, Texas, USA<br><span style="font-size:0.75rem;color:var(--text-light)">Serving clients nationwide</span></div>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form-card fade-up" id="contactForm" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="netlify-hp"><label>Don’t fill this out if you’re human: <input name="bot-field"></label></p>
+        <div class="form-divider">Send Us a Message</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Your Name</label>
+            <input type="text" class="form-control" name="name" placeholder="Full name" autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" name="email" placeholder="you@email.com" autocomplete="email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Subject</label>
+          <select class="form-control" name="subject">
+            <option>General Inquiry</option>
+            <option>Quote Request</option>
+            <option>Existing Shipment</option>
+            <option>Partnership / Agent</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message</label>
+          <textarea class="form-control" name="message" rows="5" placeholder="Tell us how we can help you..."></textarea>
+        </div>
+        <button type="button" id="contactSubmitBtn" class="btn-submit" onclick="submitContact()">Send Message →</button>
+        <div class="contact-success" id="contactSuccess">
+          <div class="success-icon"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg></div>
+          <div class="success-title">Message Sent!</div>
+          <div class="success-sub">Thanks for reaching out to Seairod Logistics LLC. We’ll respond within one business day.</div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-mark" style="background:transparent"><svg viewBox="0 0 48 48" style="width:42px;height:42px" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="45" height="45" rx="13" fill="#0A1A40"/><path d="M33 16 C33 11 20 10 17 15 C14.5 19 21 21 25 23" fill="none" stroke="#E0A526" stroke-width="4.4" stroke-linecap="round"/><path d="M23 25 C27 27 33.5 29 31 33 C28 38 15 37 15 32" fill="none" stroke="#FFFFFF" stroke-width="4.4" stroke-linecap="round"/><path d="M31.5 12.2 L39 9 L36.2 15.4 Z" fill="#E0A526"/></svg></div>
+          <div class="logo-text" style="font-size:0.95rem">SEAIROD<span>Logistics LLC</span></div>
+        </div>
+        <p class="footer-desc">Licensed NVOCC freight forwarder specializing in USA–India, USA–UAE, and USA–China trade lanes. End-to-end logistics for importers and exporters.</p>
+        <div class="social-links" style="margin-top:1rem">
+          <a href="#" class="social-link"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="#" class="social-link"><svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Services</div>
+        <div class="footer-links">
+          <a href="#services" onclick="openService('ocean');return false;">Ocean Freight</a>
+          <a href="#services" onclick="openService('air');return false;">Air Freight</a>
+          <a href="#services" onclick="openService('import');return false;">Import Logistics</a>
+          <a href="#services" onclick="openService('export');return false;">Export Logistics</a>
+          <a href="#services" onclick="openService('customs');return false;">Customs Coordination</a>
+          <a href="#services" onclick="openService('docs');return false;">Documentation</a>
+          <a href="#services" onclick="openService('inland');return false;">Inland Transportation</a>
+          <a href="#services" onclick="openService('warehouse');return false;">Warehousing</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Company</div>
+        <div class="footer-links">
+          <a href="#about">About Seairod Logistics</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#industries">Industries We Serve</a>
+          <a href="#quote">Get a Quote</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Trade Lanes</div>
+        <div class="footer-links">
+          <a href="#lanes">USA – India</a>
+          <a href="#lanes">USA – UAE</a>
+          <a href="#lanes">USA – China</a>
+          <a href="#lanes">Global Routing</a>
+        </div>
+        <div class="footer-col-title" style="margin-top:1.5rem">Legal</div>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">FMC License Info</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-legal">© 2026 Seairod Logistics LLC. All rights reserved. FMC-Licensed NVOCC | Powered by <a href="#">Seairod Logistics</a></div>
+      <div class="footer-legal">Designed for global trade.</div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- INFO MODAL (services + industries) -->
+<div class="modal-overlay" id="infoModal" onclick="if(event.target===this)closeInfoModal()">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-header">
+      <div class="m-icon" id="modalIcon">📦</div>
+      <div>
+        <div class="modal-eyebrow" id="modalEyebrow">Service</div>
+        <div class="modal-title" id="modalTitle">Title</div>
+      </div>
+      <button class="modal-close" onclick="closeInfoModal()" aria-label="Close">✕</button>
+    </div>
+    <div class="modal-body">
+      <p class="modal-lead" id="modalLead"></p>
+      <div class="modal-meta" id="modalMeta"></div>
+      <div id="modalSections"></div>
+      <div class="modal-note" id="modalNote" style="display:none"></div>
+      <div class="modal-cta">
+        <button class="btn-submit" id="modalCtaBtn" onclick="modalQuote()">Request a Quote →</button>
+        <button class="btn-form-back" onclick="closeInfoModal()">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- STICKY CTA -->
+<div class="sticky-cta" id="stickyCta">
+  <a href="https://wa.me/1XXXXXXXXXX" target="_blank" class="sticky-btn sticky-btn-wa">
+    <svg viewBox="0 0 24 24"><path d="M10 0C4.477 0 0 4.477 0 10c0 1.76.457 3.4 1.26 4.83L0 20l5.3-1.39A9.95 9.95 0 0010 20c5.523 0 10-4.477 10-10S15.523 0 10 0z"/></svg>
+    WhatsApp Us
+  </a>
+  <a href="#quote" class="sticky-btn sticky-btn-primary">Get a Quote →</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
